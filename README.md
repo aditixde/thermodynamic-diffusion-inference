@@ -1,7 +1,6 @@
 # Thermodynamic Diffusion Inference with Minimal Digital Conditioning
 
-**Paper:** [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)  
-**Author:** Aditi De
+
 
 > *We build analog chips that turn waste heat into AI inference.*
 
@@ -30,7 +29,7 @@ Two fundamental barriers blocked thermodynamic inference at production scale ([J
 ### Quick Start (GPU recommended, CPU works)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/thermodynamic-diffusion-inference.git
+git clone https://github.com/aditixde/thermodynamic-diffusion-inference.git
 cd thermodynamic-diffusion-inference
 pip install -r requirements.txt
 python run_experiments.py
@@ -80,17 +79,6 @@ Open `notebook.ipynb` in Colab — runs everything in sequence with a T4 GPU.
 - **Experiment A (Section 3):** Skip coupling effect — measures decoder shift ρ_skip across ranks 2–64
 - **Experiment B (Section 4):** Conditioning interface sweep — linear and MLP encoders across bottleneck dimensions k = 4–128
 - **Experiment C (Section 5):** Full production test — oracle, learned encoder, skip-only, and full pipeline compared
-
-## Citation
-
-```bibtex
-@article{de2026thermodynamic,
-  title={Thermodynamic Diffusion Inference with Minimal Digital Conditioning},
-  author={De, Aditi},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2026}
-}
-```
 
 ## License
 
