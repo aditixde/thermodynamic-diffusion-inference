@@ -1,9 +1,5 @@
 # Thermodynamic Diffusion Inference with Minimal Digital Conditioning
 
-
-
-> *We build analog chips that turn waste heat into AI inference.*
-
 Diffusion-model inference and overdamped Langevin dynamics are formally identical. A physical substrate encoding the score function equilibrates to the correct output by thermodynamics alone — no digital arithmetic during inference, with a theoretical **10⁷× energy reduction** over GPU inference.
 
 This repository reproduces all experiments and figures from the paper.
